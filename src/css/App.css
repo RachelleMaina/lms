@@ -1,0 +1,64 @@
+#root {
+  background: #efefef;
+  padding: 0;
+  margin: 0;
+}
+.brand {
+  font-size: 30px;
+  color: tomato;
+}
+.header {
+  background: #ffffff;
+  padding: 6px;
+}
+.header ul,
+.header li {
+  display: inline-block;
+}
+.link {
+  text-decoration: none;
+  color: #333;
+  margin-left: 40px;
+}
+.link:hover,
+.link:active {
+  background: tomato;
+  padding: 5px;
+  border-radius: 2px;
+  color: #ffffff;
+}
+.article,
+.user {
+  background: #ffffff;
+  max-width: 60%;
+  margin: 10px auto;
+  padding: 8px;
+}
+.title {
+  color: #333;
+}
+.body {
+  display: inline-block;
+  margin-bottom: 15px;
+  color: grey;
+}
+.rate {
+  color: #ffbb33;
+  margin-top: 15px;
+}
+img {
+  float: left;
+  margin: 0px 15px 15px 0px;
+}
+.footer {
+  color: grey;
+}
+hr {
+  border: 1px solid grey;
+  color: grey;
+}
+.footer span {
+  float: right;
+  margin-top: 5px;
+  clear: both;
+}
